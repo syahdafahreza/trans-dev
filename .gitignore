@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Local sandbox file-system + uploads for the host server
+apps/host/data/
+apps/host/.uploads/
+apps/host/.tmp/
+
+# React Native
+apps/mobile/android/
+apps/mobile/ios/
+apps/mobile/.expo/
+apps/mobile/vendor/
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Playwright / screenshots
+.playwright/
+screenshots/*.png
+!screenshots/.gitkeep
