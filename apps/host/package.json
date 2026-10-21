@@ -1,0 +1,18 @@
+{
+  "name": "@trans/host",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reference implementation of the TransDev mobile host: LAN HTTP file server with PIN/QR pairing.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  }
+}
